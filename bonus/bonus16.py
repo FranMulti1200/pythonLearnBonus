@@ -16,3 +16,4 @@ window = sg.Window("File Compressor", layout=[[label1, input1, choose_button1],
 
 window.read()
 window.close()
+
