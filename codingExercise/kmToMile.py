@@ -1,9 +1,10 @@
-import FreeSimpleGUI as sg
+import PySimpleGUI as sg
 
 
 def km_to_miles(km):
     return km / 1.6
 
+sg.theme("Black")
 
 label = sg.Text("Kilometers: ")
 input_box = sg.InputText(tooltip="Enter todo", key="kms")
